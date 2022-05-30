@@ -1079,7 +1079,7 @@ RouterModule.forRoot (
 )
 ```
 
-- [ ] It enables the option to flag individual routes for preloading.
+- [x] It enables the option to flag individual routes for preloading.
 - [ ] It preloads all dependencies for routes, creating instances of services when the app first starts up
 - [ ] It ensures all modules get built into a single app module bundle file.
 - [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
